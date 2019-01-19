@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css?family=lato:400,600,700,800');
+
+
+body  
+{  background-color: #ebf0ef;
+	font-family: 'Lato' , sans-serif;
+}
+
+
+
+/*----------------------------------------*/ 
+/* Header and Logo CSS
+/*----------------------------------------*/
+
+.logo a {display: inline-block}
+.logo{
+    padding: 10px 0px 10px;
+/*    width: 60%;*/
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+/* Larger phones :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+        .logo {padding: 20px 10px 15px}
+
+    
+}
+
+/* Tablets  :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	    .logo {padding: 20px 10px 15px 10px;
+	}
+
+}
+
+/* smaller mobile :320px. */
+@media (max-width: 767px) {
+	    .logo {padding: 35px 10px 10px 5px;
+				width: 50%;
+				}
+	.header-login{display: none;}
+
+
+	
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+
+{ .logo{width: 80%}
+	.header-login{display: none;}
+}
+
+
+.header-bg{
+    background: #505050;
+}
+
+.header-logo{
+
+    position: relative;
+}
+
+.header-login{
+padding-top: 10px;
+padding-bottom: 10px;	
+}
+
+
+/*----------------------------------------*/ 
+/* Footer and Bottom CSS
+/*----------------------------------------*/
+.main-footer {
+    padding-bottom: 10px;
+    padding-top: 50px;
+	background-color: #505050;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 13px; 
+}
+.footer-social ul li:last-child {
+    margin-right: 0px; 
+}
+
+.footer-social ul li a{
+    color: #ffffff;
+	background: #288FB0;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.footer-links ul li a{
+    color: #ffffff;
+    display: block;
+    line-height: 26px;
+	list-style: none !important;
+}
+
+.newsletter {
+	
+	color: #ffffff;
+}
+
+
+.footer-contact {
+	
+	color: #ffffff;
+}
+
+.footer-contact a {
+	
+	color: #ffffff;
+}
+
+.footer-contact-bottom {
+	text-align: center;
+	display: inline-block;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	
+}
+
+hr.footer-bottom-hr {
+	
+	border-color: #888888;
+	width: 100%;
+}
+
+.banner-btn {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 8px 25px 9px;
+    position: relative;
+    z-index: 9;
+    background: #288FB0;
+}
+
+
+/*----------------------------------------*/ 
+/* Callouts Section & Flips
+/*----------------------------------------*/
+
+
+.caption-title {
+	background-color: #ffffff;
+	width: auto;
+	max-width: 400px;
+	margin: auto;
+	padding: 10px;
+	color: #000;
+	border-top-style: solid;
+ 	border-top-color: #288FB0;
+}
+
+.caption-callout-1 {
+	background-color: #ffffff;
+	width: auto;
+	max-width: 300px;
+	margin: auto;
+	padding: 10px;
+	color: #000;
+	border-top-style: solid;
+ 	border-top-color: yellow;
+	text-align: center;
+	top: 40%;
+	left: 15%;
+	right: 15%;
+	position: absolute;
+	font-weight: 700;
+
+}
+
+
+
+.caption-callout-2 {
+	background-color: #ffffff;
+	width: auto;
+	max-width: 300px;
+	margin: auto;
+	padding: 10px;
+	color: #000;
+	border-top-style: solid;
+ 	border-top-color: red;
+	text-align: center;
+	top: 40%;
+	left: 15%;
+	right: 15%;
+	position: absolute;
+	font-weight: 700;
+}
+
+.caption-callout-3 {
+	background-color: #ffffff;
+	width: auto;
+	max-width: 300px;
+	margin: auto;
+	padding: 10px;
+	color: #000;
+	border-top-style: solid;
+ 	border-top-color: green;
+	text-align: center;
+	top: 40%;
+	left: 15%;
+	right: 15%;
+	position: absolute;
+	font-weight: 700;
+}
+
+.caption-callout-4 {
+	background-color: #ffffff;
+	width: auto;
+	max-width: 300px;
+	margin: auto;
+	padding: 10px;
+	color: #000;
+	border-top-style: solid;
+ 	border-top-color: green;
+	text-align: center;
+	top: 40%;
+	left: 15%;
+	right: 15%;
+	position: absolute;
+	font-weight: 700;
+}
+
+.caption-callout-5 {
+	background-color: #ffffff;
+	width: auto;
+	max-width: 300px;
+	margin: auto;
+	padding: 10px;
+	color: #000;
+	border-top-style: solid;
+ 	border-top-color: green;
+	text-align: center;
+	top: 40%;
+	left: 15%;
+	right: 15%;
+	position: absolute;
+	font-weight: 700;
+
+}
+
+
+.flip-card {
+  background-color: transparent;
+  height: 200px;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: #288FB0;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+.image-hover {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-hover:hover .image-hover {
+  opacity: 0.3;
+}
+
+.container-hover:hover .middle {
+  opacity: 1;
+}
+
+
+
+
+
+
+.clickme-btn {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 8px 25px 9px;
+    position: absolute;
+    z-index: 9;
+    background: rgba(0,0,0,0.5);
+	border-style: solid;
+ 	border-color: #288FB0;
+	top: 60%;
+	left: 40%;
+	width: auto;
+	max-width: 150px;
+	font-weight: 700;
+
+}
+
+
+
+
+/*----------------------------------------*/ 
+/* This makes the buttons responsive
+/*----------------------------------------*/
+	
+	@media (max-width: 768px) {
+  .clickme-btn {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 8px 25px 9px;
+    position: absolute;
+    z-index: 9;
+    background: rgba(0,0,0,0.5);
+	border-style: solid;
+ 	border-color: #288FB0;
+	top: 65%;
+	left: 33%;
+	width: auto;
+	max-width: 150px;
+	font-weight: 700;
+}
+}
+
+/*----------------------------------------*/ 
+/* Breathing room for divs
+/*----------------------------------------*/
+
+.spacer {
+	
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+	
+
+
+.menu-text-copy {
+	
+	color: white;
+}
+
+.menu-text-background {
+	background-color: #288FB0;
+
+}
+
+.menu-text-background-space {
+	background-color: #288FB0;
+	padding-top: 10px;
+	
+
+}
+
